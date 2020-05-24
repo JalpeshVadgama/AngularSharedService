@@ -1,14 +1,18 @@
 # Angular: Interaction between Component with Shared service
 
-In this video, We are going to learn how we can have interaction between components via shared service.
+In this application, We are going to learn how we can have interaction between components via shared service.
 
 If you have not seen my first video about Interaction between Component with @Input and @Output in Angular and then I would highly recommend it to see that video. Following is a link to that video.
 
 https://bit.ly/AngularComponentInteraction
 
-In this video, I have created a shared service that has got a message source as behavior subject from rx.js which holds an observable. By default, I have initialized it as the default message. Then I have created a new method where I have created a method called "changeMessage"  from where the user can change the message.
+In this application, I have created a shared service that has got a message source as behavior subject from rx.js which holds an observable. By default, I have initialized it as the default message. Then I have created a new method where I have created a method called "changeMessage"  from where the user can change the message.
 
 After that, I have injected this service into two different components and subscribe to current message observable. I have also created a button click event in both components which calls the  Change message method from shared service. As we have subscribed to both our message observable it will reflect in message change in both components.
+
+# Video:
+The complete video for this application is available on the following location
+https://bit.ly/angularsharedservice
 
 
 
